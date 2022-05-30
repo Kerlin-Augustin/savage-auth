@@ -5,3 +5,49 @@ body{
 img{
   height: 200px;
 }
+
+body{
+  padding:0% 3% 10% 3%;
+  text-align:center;
+  }
+
+  h1{
+  color: #000000;
+  margin-top:30px;
+  }
+
+button{
+  cursor: pointer;
+  border: 1px solid #555;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+
+li{
+  list-style: none;
+}
+
+section{
+  border: 1px solid black;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
